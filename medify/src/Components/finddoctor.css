@@ -1,0 +1,190 @@
+.selection-fd{
+    position: relative;
+    width: 100px;
+    height: 6px;
+    left: 400px;
+    background: #2AA7FF;
+    
+}
+
+.justaspace{
+    width: 1346px;
+height: 110px;
+top: 124px;
+border-radius: 0px  0px 16px 16px;
+background: linear-gradient(91.75deg, #2AA7FF 1.4%, #0C8CE6 100.57%);
+
+}
+
+.search-fd{
+    position :absolute;
+    width: 1166px;
+height: 61px;
+top: 179px;
+left: 135px;
+padding: 27px 24px 27px 24px;
+border-radius: 15px ;
+background-color : white;
+box-shadow: 6px 6px 35px 0px #1028511C;
+z-index: 1;
+
+display : flex;
+justify-content: space-around;
+align-items:center;
+
+}
+
+.fd-search-input{
+    display :flex;
+    align-items : center;
+    width: 285px;
+    height: 50px;
+    border: 1px solid #F0F0F0;
+    background: #FAFBFE;
+    padding-left : 10px;
+}
+
+.fd-search-textinput{
+    border : none ;
+    background: #FAFBFE;
+    padding-left : 10px;
+    
+}
+
+.fd-search-btn{
+    display: flex;
+    align-items : center;
+    width: 121px;
+    height: 50px;
+    border-radius: 8px;
+    color : white;
+    background: #2AA8FF;
+    border : none;
+    cursor: pointer;
+
+}
+
+.searchbtn-icon{
+    width: 20.8px;
+ height: 20.8px;
+ margin: 10px;
+}
+
+.fd-hospital-main{
+ text-align : left;
+  padding:100px 50px 0pc 135px;
+  margin-bottom : 0px;
+  width : 100%;
+  background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+}
+
+.medicalcenteravailable{
+font-size: 24px;
+font-weight: 500;
+color : black;
+}
+
+.flex-container-verified{
+    display : flex;
+    height : 23px;
+    align-items : center;
+    color: #787887;
+
+}
+
+.fd-hospital-container{
+    display : flex;
+
+}
+
+.hospital-list-container{
+    display : flex;
+    width: 785.56px;
+height: 268.38px;
+padding: 24px ;
+gap: 14px;
+border-radius: 15px  15px 0px 0px;
+background : white;
+margin-top : 20px;
+}
+
+
+.hospital-pic{
+    width: 140px;
+    height: 140px;
+    
+}
+
+.freeconsultation{
+    width : 100%;
+    display : flex;
+    justify-content : space-between;
+}
+
+.hospital-pic{
+    flex : 20%
+}
+
+.hospital-details{
+    flex : 80%
+}
+
+.green-color{
+    color: #02A401;
+    margin-right : 10px;
+
+}
+
+.fd-search-textinput{
+    border: none;
+    outline: none;
+    -webkit-appearance: none; /* Safari and Chrome */
+    -moz-appearance: none; /* Firefox */
+     appearance: none;
+    
+}
+
+.carousel-container{
+    width: 800px; 
+    height : 278px;
+    padding-right :35px;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 15px  15px ;
+background : white;
+}
+
+.timings-flex{
+    display: flex;
+    justify-content: flex-end;
+    gap:10%;
+    padding : 10px;
+}
+
+.timings-inner-flex{
+    flex : 40%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.timings-button{
+    width: 84px;
+height: 31.59px;
+top: 4px;
+left: 4px;
+padding: 7px 11.08px 7.59px 11.92px;
+border-radius: 3px;
+border: 1px solid #2AA7FF;
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+color: #2AA7FF;
+background-color: white;
+}
+
+.timings-button:active {
+    color: white;
+background-color: #2AA7FF;
+
+}

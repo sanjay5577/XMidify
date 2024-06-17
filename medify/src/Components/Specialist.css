@@ -1,0 +1,61 @@
+.specialist-heading{
+font-size: 48px;
+font-weight: 600;
+margin-top : 60px;
+margin-bottom : 70px;
+color: #1B3C74;
+
+}
+
+.my-Swiper{
+    width: 1600px;
+height: 600px;
+left :-200px;
+right : 200px;
+margin-bottom : 70px;
+
+}
+
+.specialist-slide{
+    width: 370px;
+height: 505px;
+
+}
+
+.specialist-img{
+    width: 350px;
+    height: 395px;
+    padding: 10px 0px 0px 0px;  
+top: 10px;
+left: 10px;
+padding: 30px 17px 0px 17px;
+border-radius: 250px 250px 4px 4px;
+background: linear-gradient(144.2deg, #E1F3FF 0%, #2AA7FF 100%);
+box-shadow: 0px 15px 55px -10px #00000017;
+
+
+
+}
+
+.specialist-name{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 48px;
+text-align: center;
+color: #1B3C74;
+
+}
+
+
+
+.specialist-designation{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 27px;
+text-align: center;
+color : #2AA7FF;
+
+
+}

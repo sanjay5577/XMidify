@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  width : 100%
+
+}
+.header{
+  background: #2AA7FF;
+  min-height : 30px;
+  display : flex ;
+  align-items : center;
+  justify-content: center;
+  padding: 5px 20px;
+}
+
+.header-text{
+  margin : 0px;
+  color : white;
+font-size: 14px;
+font-weight: 400;
+
+}
+
+.marquee {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.marquee p {
+  display: inline-block;
+  padding-left: 100%;
+  animation: moveSentence 25s linear infinite;
+}
+
+
+@keyframes moveSentence {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

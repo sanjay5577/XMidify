@@ -1,0 +1,44 @@
+
+
+.my-swiper-container .swiper-button-prev,
+.my-swiper-container .swiper-button-next {
+  width: 48px; /* Adjust width and height to set the button size */
+  height: 48px;
+  border-radius: 50%; /* Make the button circular */
+  background-color: #ffffff; /* Example background color */
+  color: #2AA7FF; /* Example text color */
+  border: 1px solid #E0E0E4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px; /* Example font size */
+  cursor: pointer;
+  padding : 10px;
+  margin : 0px;
+  position : 10px;
+  top: -0px;  
+  transform: translateY(0); /* Ensure buttons are not vertically centered */
+}
+
+
+/* Adjust position and other styles as needed */
+.my-swiper-container .swiper-button-prev::after {
+  height :10px; /* Adjust left/right positioning */
+  margin-bottom : 10px
+}
+
+.my-swiper-container .swiper-button-next::after{
+    height :10px;  /* Adjust left/right positioning */
+    margin-bottom : 10px
+}
+
+/* Optional: Customize the color of the active slide bar */
+.swiper-scrollbar .swiper-scrollbar-drag{
+    background-color: #2AA7FF; /* Example active slide bar color */
+  }
+
+  .my-swiper-container {
+    padding-top: 50px; /* Adjust this value to match the top offset of the arrows */
+    max-width: 90%; /* Adjust this value to set the width of the Swiper container */
+    margin: 0 auto; /* Center the Swiper container */
+  }

@@ -1,0 +1,36 @@
+.justaspace-booking{  
+    width: 1346px;
+height: 110px;
+top: 124px;
+border-radius: 0px  0px 16px 16px;
+background: linear-gradient(91.75deg, #2AA7FF 1.4%, #0C8CE6 100.57%);
+display : flex;
+justify-content : space-around;
+align-items : center;
+}
+
+.search-bookings{
+    position :absolute;
+    width: 780px;
+height: 50px;
+top: 176px;
+left: 521px;
+padding: 27px 24px 27px 24px;
+border-radius: 15px ;
+background-color : white;
+box-shadow: 6px 6px 35px 0px #1028511C;
+z-index: 1;
+
+display : flex;
+justify-content: space-around;
+align-items:center;
+}
+
+.heading-booking{
+    position : absolute;
+    font-family: Ubuntu;
+font-size: 40px;
+font-weight: 700;
+color : white;
+left : 80px;
+}
